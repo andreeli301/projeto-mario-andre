@@ -15,7 +15,6 @@ Objetivo 2 - Quando clicar no X na modal é para fazer ela fechar.
 document.querySelector(".botao-trailer")
 const botaoTrailer = document.querySelector(".botao-trailer");
 const botaoFechar = document.querySelector(".fechar-modal");
-
 const modal = document.querySelector(".modal");
 const video = document.getElementById("video");
 
@@ -25,8 +24,6 @@ botaoTrailer.addEventListener("click", () => {
 });
 
 //2 
-
-
 botaoFechar.addEventListener("click", () => {
   modal.classList.remove("aberto")
   video.setAttribute("src", "")
